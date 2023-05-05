@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1-bullseye
 
 # Default config expects bind mount / volume @ /data/pypi/web
 RUN mkdir -p /data/pypi/web

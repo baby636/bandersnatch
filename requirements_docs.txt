@@ -18,3 +18,4 @@ git+https://github.com/python/python-docs-theme.git#egg=python-docs-theme
 # Also, the missing swift dependencies will cause the doc build to fail since
 # autodoc will raise a warning due to the import failure.
 -r requirements_swift.txt
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability

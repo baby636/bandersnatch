@@ -1,3 +1,4 @@
 keystoneauth1==4.3.0
 openstackclient==4.0.0
 python-swiftclient==3.11.1
+python-openstackclient>=6.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
